@@ -1,0 +1,696 @@
+breakdown:
+- M025: 301
+job_types:
+  a:
+  - machine_type: A
+    max_pend_time: 32
+    op_name: A01
+    process_time: 19
+  - machine_type: B
+    max_pend_time: 174
+    op_name: A02
+    process_time: 43
+  - machine_type: C
+    max_pend_time: 192
+    op_name: A03
+    process_time: 26
+  b:
+  - machine_type: A
+    max_pend_time: 149
+    op_name: B01
+    process_time: 84
+  - machine_type: B
+    max_pend_time: 182
+    op_name: B02
+    process_time: 27
+  - machine_type: C
+    max_pend_time: 11
+    op_name: B03
+    process_time: 29
+  - machine_type: D
+    max_pend_time: 154
+    op_name: B04
+    process_time: 29
+  c:
+  - machine_type: A
+    max_pend_time: 185
+    op_name: C01
+    process_time: 18
+  - machine_type: B
+    max_pend_time: 13
+    op_name: C02
+    process_time: 28
+  - machine_type: D
+    max_pend_time: 192
+    op_name: C03
+    process_time: 53
+  d:
+  - machine_type: A
+    max_pend_time: 22
+    op_name: D01
+    process_time: 21
+  - machine_type: B
+    max_pend_time: 168
+    op_name: D02
+    process_time: 59
+  - machine_type: C
+    max_pend_time: 149
+    op_name: D03
+    process_time: 67
+  - machine_type: D
+    max_pend_time: 20
+    op_name: D04
+    process_time: 32
+jobs:
+  a:
+    J0001:
+      arrival: 0
+      priority: 0
+    J0008:
+      arrival: 0
+      priority: 0
+    J0009:
+      arrival: 0
+      priority: 0
+    J0010:
+      arrival: 0
+      priority: 0
+    J0014:
+      arrival: 0
+      priority: 0
+    J0017:
+      arrival: 0
+      priority: 0
+    J0022:
+      arrival: 0
+      priority: 0
+    J0023:
+      arrival: 0
+      priority: 0
+    J0025:
+      arrival: 0
+      priority: 0
+    J0026:
+      arrival: 0
+      priority: 0
+    J0042:
+      arrival: 0
+      priority: 0
+    J0049:
+      arrival: 0
+      priority: 0
+    J0050:
+      arrival: 0
+      priority: 0
+    J0062:
+      arrival: 0
+      priority: 0
+    J0063:
+      arrival: 0
+      priority: 0
+    J0065:
+      arrival: 0
+      priority: 0
+    J0071:
+      arrival: 0
+      priority: 0
+    J0073:
+      arrival: 0
+      priority: 0
+    J0074:
+      arrival: 0
+      priority: 0
+    J0076:
+      arrival: 0
+      priority: 0
+    J0077:
+      arrival: 0
+      priority: 0
+    J0078:
+      arrival: 0
+      priority: 0
+    J0081:
+      arrival: 0
+      priority: 0
+    J0085:
+      arrival: 0
+      priority: 0
+    J0090:
+      arrival: 0
+      priority: 0
+    J0091:
+      arrival: 0
+      priority: 0
+    J0092:
+      arrival: 0
+      priority: 0
+    J0106:
+      arrival: 0
+      priority: 0
+    J0112:
+      arrival: 0
+      priority: 0
+    J0114:
+      arrival: 0
+      priority: 0
+    J0118:
+      arrival: 0
+      priority: 0
+    J0123:
+      arrival: 0
+      priority: 0
+    J0125:
+      arrival: 0
+      priority: 0
+    J0128:
+      arrival: 0
+      priority: 0
+    J0132:
+      arrival: 0
+      priority: 0
+    J0134:
+      arrival: 0
+      priority: 0
+    J0143:
+      arrival: 0
+      priority: 0
+    J0144:
+      arrival: 0
+      priority: 0
+    J0148:
+      arrival: 0
+      priority: 0
+    J0149:
+      arrival: 0
+      priority: 0
+    J0159:
+      arrival: 0
+      priority: 0
+    J0160:
+      arrival: 0
+      priority: 0
+    J0168:
+      arrival: 0
+      priority: 0
+    J0171:
+      arrival: 0
+      priority: 0
+    J0172:
+      arrival: 0
+      priority: 0
+    J0173:
+      arrival: 0
+      priority: 0
+    J0175:
+      arrival: 0
+      priority: 0
+    J0176:
+      arrival: 0
+      priority: 0
+    J0178:
+      arrival: 0
+      priority: 0
+    J0188:
+      arrival: 205
+      priority: 1
+    J0195:
+      arrival: 312
+      priority: 1
+  b:
+    J0003:
+      arrival: 0
+      priority: 0
+    J0005:
+      arrival: 0
+      priority: 0
+    J0006:
+      arrival: 0
+      priority: 0
+    J0015:
+      arrival: 0
+      priority: 0
+    J0016:
+      arrival: 0
+      priority: 0
+    J0018:
+      arrival: 0
+      priority: 0
+    J0020:
+      arrival: 0
+      priority: 0
+    J0028:
+      arrival: 0
+      priority: 0
+    J0032:
+      arrival: 0
+      priority: 0
+    J0033:
+      arrival: 0
+      priority: 0
+    J0036:
+      arrival: 0
+      priority: 0
+    J0038:
+      arrival: 0
+      priority: 0
+    J0039:
+      arrival: 0
+      priority: 0
+    J0043:
+      arrival: 0
+      priority: 0
+    J0044:
+      arrival: 0
+      priority: 0
+    J0051:
+      arrival: 0
+      priority: 0
+    J0055:
+      arrival: 0
+      priority: 0
+    J0056:
+      arrival: 0
+      priority: 0
+    J0057:
+      arrival: 0
+      priority: 0
+    J0064:
+      arrival: 0
+      priority: 0
+    J0066:
+      arrival: 0
+      priority: 0
+    J0067:
+      arrival: 0
+      priority: 0
+    J0069:
+      arrival: 0
+      priority: 0
+    J0079:
+      arrival: 0
+      priority: 0
+    J0080:
+      arrival: 0
+      priority: 0
+    J0083:
+      arrival: 0
+      priority: 0
+    J0084:
+      arrival: 0
+      priority: 0
+    J0086:
+      arrival: 0
+      priority: 0
+    J0089:
+      arrival: 0
+      priority: 0
+    J0095:
+      arrival: 0
+      priority: 0
+    J0096:
+      arrival: 0
+      priority: 0
+    J0097:
+      arrival: 0
+      priority: 0
+    J0100:
+      arrival: 0
+      priority: 0
+    J0107:
+      arrival: 0
+      priority: 0
+    J0111:
+      arrival: 0
+      priority: 0
+    J0113:
+      arrival: 0
+      priority: 0
+    J0120:
+      arrival: 0
+      priority: 0
+    J0127:
+      arrival: 0
+      priority: 0
+    J0131:
+      arrival: 0
+      priority: 0
+    J0135:
+      arrival: 0
+      priority: 0
+    J0138:
+      arrival: 0
+      priority: 0
+    J0145:
+      arrival: 0
+      priority: 0
+    J0147:
+      arrival: 0
+      priority: 0
+    J0150:
+      arrival: 0
+      priority: 0
+    J0154:
+      arrival: 0
+      priority: 0
+    J0157:
+      arrival: 0
+      priority: 0
+    J0161:
+      arrival: 0
+      priority: 0
+    J0163:
+      arrival: 0
+      priority: 0
+    J0165:
+      arrival: 0
+      priority: 0
+    J0179:
+      arrival: 0
+      priority: 0
+    J0180:
+      arrival: 0
+      priority: 0
+    J0183:
+      arrival: 112
+      priority: 4
+    J0184:
+      arrival: 127
+      priority: 2
+    J0185:
+      arrival: 130
+      priority: 2
+    J0198:
+      arrival: 369
+      priority: 2
+  c:
+    J0011:
+      arrival: 0
+      priority: 0
+    J0012:
+      arrival: 0
+      priority: 0
+    J0021:
+      arrival: 0
+      priority: 0
+    J0027:
+      arrival: 0
+      priority: 0
+    J0029:
+      arrival: 0
+      priority: 0
+    J0031:
+      arrival: 0
+      priority: 0
+    J0034:
+      arrival: 0
+      priority: 0
+    J0035:
+      arrival: 0
+      priority: 0
+    J0041:
+      arrival: 0
+      priority: 0
+    J0045:
+      arrival: 0
+      priority: 0
+    J0046:
+      arrival: 0
+      priority: 0
+    J0048:
+      arrival: 0
+      priority: 0
+    J0058:
+      arrival: 0
+      priority: 0
+    J0068:
+      arrival: 0
+      priority: 0
+    J0070:
+      arrival: 0
+      priority: 0
+    J0075:
+      arrival: 0
+      priority: 0
+    J0082:
+      arrival: 0
+      priority: 0
+    J0087:
+      arrival: 0
+      priority: 0
+    J0093:
+      arrival: 0
+      priority: 0
+    J0101:
+      arrival: 0
+      priority: 0
+    J0103:
+      arrival: 0
+      priority: 0
+    J0108:
+      arrival: 0
+      priority: 0
+    J0109:
+      arrival: 0
+      priority: 0
+    J0110:
+      arrival: 0
+      priority: 0
+    J0116:
+      arrival: 0
+      priority: 0
+    J0122:
+      arrival: 0
+      priority: 0
+    J0124:
+      arrival: 0
+      priority: 0
+    J0126:
+      arrival: 0
+      priority: 0
+    J0130:
+      arrival: 0
+      priority: 0
+    J0137:
+      arrival: 0
+      priority: 0
+    J0139:
+      arrival: 0
+      priority: 0
+    J0142:
+      arrival: 0
+      priority: 0
+    J0146:
+      arrival: 0
+      priority: 0
+    J0153:
+      arrival: 0
+      priority: 0
+    J0158:
+      arrival: 0
+      priority: 0
+    J0166:
+      arrival: 0
+      priority: 0
+    J0167:
+      arrival: 0
+      priority: 0
+    J0170:
+      arrival: 0
+      priority: 0
+    J0186:
+      arrival: 170
+      priority: 1
+    J0187:
+      arrival: 194
+      priority: 1
+    J0189:
+      arrival: 210
+      priority: 3
+    J0191:
+      arrival: 256
+      priority: 3
+    J0192:
+      arrival: 264
+      priority: 4
+    J0197:
+      arrival: 360
+      priority: 1
+    J0199:
+      arrival: 377
+      priority: 1
+  d:
+    J0002:
+      arrival: 0
+      priority: 0
+    J0004:
+      arrival: 0
+      priority: 0
+    J0007:
+      arrival: 0
+      priority: 0
+    J0013:
+      arrival: 0
+      priority: 0
+    J0019:
+      arrival: 0
+      priority: 0
+    J0024:
+      arrival: 0
+      priority: 0
+    J0030:
+      arrival: 0
+      priority: 0
+    J0037:
+      arrival: 0
+      priority: 0
+    J0040:
+      arrival: 0
+      priority: 0
+    J0047:
+      arrival: 0
+      priority: 0
+    J0052:
+      arrival: 0
+      priority: 0
+    J0053:
+      arrival: 0
+      priority: 0
+    J0054:
+      arrival: 0
+      priority: 0
+    J0059:
+      arrival: 0
+      priority: 0
+    J0060:
+      arrival: 0
+      priority: 0
+    J0061:
+      arrival: 0
+      priority: 0
+    J0072:
+      arrival: 0
+      priority: 0
+    J0088:
+      arrival: 0
+      priority: 0
+    J0094:
+      arrival: 0
+      priority: 0
+    J0098:
+      arrival: 0
+      priority: 0
+    J0099:
+      arrival: 0
+      priority: 0
+    J0102:
+      arrival: 0
+      priority: 0
+    J0104:
+      arrival: 0
+      priority: 0
+    J0105:
+      arrival: 0
+      priority: 0
+    J0115:
+      arrival: 0
+      priority: 0
+    J0117:
+      arrival: 0
+      priority: 0
+    J0119:
+      arrival: 0
+      priority: 0
+    J0121:
+      arrival: 0
+      priority: 0
+    J0129:
+      arrival: 0
+      priority: 0
+    J0133:
+      arrival: 0
+      priority: 0
+    J0136:
+      arrival: 0
+      priority: 0
+    J0140:
+      arrival: 0
+      priority: 0
+    J0141:
+      arrival: 0
+      priority: 0
+    J0151:
+      arrival: 0
+      priority: 0
+    J0152:
+      arrival: 0
+      priority: 0
+    J0155:
+      arrival: 0
+      priority: 0
+    J0156:
+      arrival: 0
+      priority: 0
+    J0162:
+      arrival: 0
+      priority: 0
+    J0164:
+      arrival: 0
+      priority: 0
+    J0169:
+      arrival: 0
+      priority: 0
+    J0174:
+      arrival: 0
+      priority: 0
+    J0177:
+      arrival: 0
+      priority: 0
+    J0181:
+      arrival: 62
+      priority: 1
+    J0182:
+      arrival: 103
+      priority: 1
+    J0190:
+      arrival: 222
+      priority: 3
+    J0193:
+      arrival: 276
+      priority: 1
+    J0194:
+      arrival: 292
+      priority: 1
+    J0196:
+      arrival: 332
+      priority: 2
+machines:
+  A:
+  - M001
+  - M002
+  - M003
+  - M004
+  - M005
+  - M006
+  - M007
+  B:
+  - M008
+  - M009
+  - M010
+  - M011
+  - M012
+  - M013
+  - M014
+  - M015
+  - M016
+  C:
+  - M017
+  - M018
+  - M019
+  - M020
+  - M021
+  D:
+  - M022
+  - M023
+  - M024
+  - M025
+ptv: 10

@@ -1,0 +1,204 @@
+breakdown:
+- M012: 285
+job_types:
+  a:
+  - machine_type: A
+    max_pend_time: 32
+    op_name: A01
+    process_time: 19
+  - machine_type: B
+    max_pend_time: 174
+    op_name: A02
+    process_time: 43
+  - machine_type: C
+    max_pend_time: 192
+    op_name: A03
+    process_time: 26
+  b:
+  - machine_type: A
+    max_pend_time: 149
+    op_name: B01
+    process_time: 84
+  - machine_type: B
+    max_pend_time: 182
+    op_name: B02
+    process_time: 27
+  - machine_type: C
+    max_pend_time: 11
+    op_name: B03
+    process_time: 29
+  - machine_type: D
+    max_pend_time: 154
+    op_name: B04
+    process_time: 29
+  c:
+  - machine_type: A
+    max_pend_time: 185
+    op_name: C01
+    process_time: 18
+  - machine_type: B
+    max_pend_time: 13
+    op_name: C02
+    process_time: 28
+  - machine_type: D
+    max_pend_time: 192
+    op_name: C03
+    process_time: 53
+  d:
+  - machine_type: A
+    max_pend_time: 22
+    op_name: D01
+    process_time: 21
+  - machine_type: B
+    max_pend_time: 168
+    op_name: D02
+    process_time: 59
+  - machine_type: C
+    max_pend_time: 149
+    op_name: D03
+    process_time: 67
+  - machine_type: D
+    max_pend_time: 20
+    op_name: D04
+    process_time: 32
+jobs:
+  a:
+    J0003:
+      arrival: 0
+      priority: 0
+    J0004:
+      arrival: 0
+      priority: 0
+    J0009:
+      arrival: 0
+      priority: 0
+    J0010:
+      arrival: 0
+      priority: 0
+    J0017:
+      arrival: 0
+      priority: 0
+    J0018:
+      arrival: 0
+      priority: 0
+    J0019:
+      arrival: 0
+      priority: 0
+    J0023:
+      arrival: 0
+      priority: 0
+    J0028:
+      arrival: 0
+      priority: 0
+    J0035:
+      arrival: 136
+      priority: 3
+    J0036:
+      arrival: 141
+      priority: 2
+    J0037:
+      arrival: 141
+      priority: 1
+    J0038:
+      arrival: 169
+      priority: 3
+    J0039:
+      arrival: 221
+      priority: 3
+  b:
+    J0008:
+      arrival: 0
+      priority: 0
+    J0015:
+      arrival: 0
+      priority: 0
+    J0016:
+      arrival: 0
+      priority: 0
+    J0020:
+      arrival: 0
+      priority: 0
+    J0024:
+      arrival: 0
+      priority: 0
+    J0027:
+      arrival: 0
+      priority: 0
+    J0030:
+      arrival: 0
+      priority: 0
+    J0031:
+      arrival: 0
+      priority: 0
+    J0033:
+      arrival: 31
+      priority: 1
+  c:
+    J0002:
+      arrival: 0
+      priority: 0
+    J0026:
+      arrival: 0
+      priority: 0
+    J0029:
+      arrival: 0
+      priority: 0
+    J0032:
+      arrival: 0
+      priority: 0
+    J0034:
+      arrival: 118
+      priority: 2
+  d:
+    J0001:
+      arrival: 0
+      priority: 0
+    J0005:
+      arrival: 0
+      priority: 0
+    J0006:
+      arrival: 0
+      priority: 0
+    J0007:
+      arrival: 0
+      priority: 0
+    J0011:
+      arrival: 0
+      priority: 0
+    J0012:
+      arrival: 0
+      priority: 0
+    J0013:
+      arrival: 0
+      priority: 0
+    J0014:
+      arrival: 0
+      priority: 0
+    J0021:
+      arrival: 0
+      priority: 0
+    J0022:
+      arrival: 0
+      priority: 0
+    J0025:
+      arrival: 0
+      priority: 0
+machines:
+  A:
+  - M001
+  - M002
+  - M003
+  - M004
+  - M005
+  B:
+  - M006
+  - M007
+  - M008
+  - M009
+  C:
+  - M010
+  - M011
+  D:
+  - M012
+  - M013
+ptv: 10
